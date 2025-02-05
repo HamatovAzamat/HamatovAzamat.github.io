@@ -14,13 +14,20 @@
         ],
         "components": [
             {
+                "?": {
+                  "without_linking": "1",
+                },
+                "exclude": true,
+                "comment": "exclude all links with without_linking=1",
+            },
+            {
               "/": "/clients/*",
               "comment": "Matches any URL whose path starts with /clients/*"
             },
             {
               "/": "/timetable/*",
               "comment": "Matches any URL whose path starts with /timetable/*"
-            },
+            }
         ]
       }
     ]
