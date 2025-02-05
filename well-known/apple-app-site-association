@@ -1,0 +1,28 @@
+{
+  "webcredentials": {
+    "apps": [
+      "3CAH5E3CNB.com.yclients.admin",
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "3CAH5E3CNB.com.yclients.admin",
+        "paths": [
+          "*",
+        ],
+        "components": [
+            {
+              "/": "/clients/*",
+              "comment": "Matches any URL whose path starts with /clients/*"
+            },
+            {
+              "/": "/timetable/*",
+              "comment": "Matches any URL whose path starts with /timetable/*"
+            },
+        ]
+      }
+    ]
+  }
+}
