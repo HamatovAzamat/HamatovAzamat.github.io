@@ -25,6 +25,31 @@
               "comment": "Matches any URL whose path starts with /clients/*"
             },
             {
+                "/": "/categories/*",
+                "comment": "Matches any URL whose path starts with /categories/*"
+            },
+            {
+               "/": "/staff-new/list/*",
+            },
+            {
+                "/": "/schedule/*",
+            },
+            {
+                "/": "/booking/bookforms/*",
+            },
+            {
+             "/": "/settings-menu/*",
+             },
+            {
+                 "/": "/analytics/*",
+            },
+            {
+                "/": "/salary/list/*",
+            },
+            {
+                "/": "/notification-center/list/*",
+            },
+            {
               "/": "/timetable/*",
               "comment": "Matches any URL whose path starts with /timetable/*"
             }
