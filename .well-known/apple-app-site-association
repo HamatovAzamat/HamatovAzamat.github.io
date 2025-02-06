@@ -50,6 +50,9 @@
                 "/": "/notification-center/list/*",
             },
             {
+                "/": "/notification-settings/*",
+            },
+            {
               "/": "/timetable/*",
               "comment": "Matches any URL whose path starts with /timetable/*"
             }
