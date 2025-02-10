@@ -21,40 +21,40 @@
                 "comment": "exclude all links with without_linking=1",
             },
             {
-              "/": "/clients/*",
-              "comment": "Matches any URL whose path starts with /clients/*"
+                "/": "/clients/*",
+                "comment": "Matches any URL whose path starts with /clients/*"
             },
             {
-                "/": "/categories/*",
+                "/": "/settings/service_categories/*",
                 "comment": "Matches any URL whose path starts with /categories/*"
             },
             {
-               "/": "/staff-new/list/*",
+                "/": "/settings/filial_staff/*",
             },
             {
-                "/": "/schedule/*",
+                "/": "/work_schedule/*",
             },
             {
-                "/": "/booking/bookforms/*",
+                "/": "/online/booking_forms/*",
             },
             {
-             "/": "/settings-menu/*",
+                "/": "/settings/menu/*",
             },
             {
-                 "/": "/analytics/*",
+                "/": "/analytics/*",
             },
             {
-                "/": "/salary/list/*",
+                "/": "/salary/calculations/*",
             },
             {
-                "/": "/notification-center/list/*",
+                "/": "/dashboard_message/*",
             },
             {
-                "/": "/notification-settings/*",
+                "/": "/settings/salon/notification/*",
             },
             {
-              "/": "/timetable/*",
-              "comment": "Matches any URL whose path starts with /timetable/*"
+                "/": "/timetable/*",
+                "comment": "Matches any URL whose path starts with /timetable/*"
             }
         ]
       }
