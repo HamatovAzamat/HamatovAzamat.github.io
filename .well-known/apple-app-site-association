@@ -33,7 +33,7 @@
             "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
           },
           {
-             "/": "/work_schedule/*",
+             "/": "/categories/*",
              "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
           },
           {
