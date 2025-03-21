@@ -60,6 +60,7 @@
           },
           {
             "/": "/analytics/*",
+            "exclude": true,
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
           },
           {
