@@ -9,6 +9,9 @@
     "details": [
       {
         "appID": "3CAH5E3CNB.com.yclients.admin",
+        "paths": [
+          "*"
+        ],
         "components": [
           {
             "?": {
@@ -30,8 +33,8 @@
             "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
           },
           {
-                      "/": "/work_schedule/*",
-             "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
+            "/": "/work_schedule/*",
+            "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
           },
           {
             "/": "/online/booking_forms/[0-9]*",
