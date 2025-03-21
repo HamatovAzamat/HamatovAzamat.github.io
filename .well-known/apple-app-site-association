@@ -33,6 +33,10 @@
             "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
           },
           {
+             "/": "/work_schedule/*",
+             "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
+          },
+          {
             "/": "/online/booking_forms/[0-9]*",
             "comment": "Matches /online/booking_forms/ followed by numbers, e.g., /online/booking_forms/647068"
           },
