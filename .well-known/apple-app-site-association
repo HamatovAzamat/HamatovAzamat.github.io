@@ -49,7 +49,17 @@
             "comment": "Matches /settings/menu/ followed by numbers, e.g., /settings/menu/647068"
           },
           {
-            "/": "/analytics/[0-9]*",
+            "/": "/analytics/*",
+            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
+          },
+          {
+            "/": "/analytics/report/*",
+            "exclude": true,
+            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
+          },
+          {
+            "/": "/analytics/admins/*",
+            "exclude": true,
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
           },
           {
