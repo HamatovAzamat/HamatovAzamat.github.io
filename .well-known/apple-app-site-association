@@ -14,22 +14,7 @@
         ],
         "components": [
           {
-            "/": "/clients/*",
-            "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
-          },
-          {
-            "/": "/analytics/report/*",
-            "exclude": true,
-            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
-          },
-          {
-            "/": "/analytics/admins/*",
-            "exclude": true,
-            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
-          },
-          {
-            "/": "/analytics/*",
-            "exclude": true,
+            "/": ""*",
             "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
           },
         ]
