@@ -1,37 +1,156 @@
 {
-  "webcredentials": {
-    "apps": [
-      "3CAH5E3CNB.com.yclients.admin",
-    ]
-  },
   "applinks": {
     "apps": [],
     "details": [
       {
-        "appID": "3CAH5E3CNB.com.yclients.admin",
-        "paths": [
-          "*"
+        "appIDs": [
+          "B6833APDGS.ru.freshauto.app"
         ],
         "components": [
           {
-            "/": "/clients/*",
-            "comment": "Matches /work_schedule/ followed by numbers, e.g., /work_schedule/647068"
+            "/": "/"
           },
           {
-            "/": "/analytics/report/*",
-            "exclude": true,
-            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
+            "/": "/catalog"
           },
           {
-            "/": "/analytics/admins/*",
-            "exclude": true,
-            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
+            "/": "/catalog/carfinder"
           },
           {
-            "/": "/analytics/*",
-            "exclude": true,
-            "comment": "Matches /analytics/ followed by numbers, e.g., /analytics/647068"
+            "/": "/catalog/vehicle/*"
           },
+          {
+            "/": "/cars/*"
+          },
+          {
+            "/": "/motorcycles/*"
+          },
+          {
+            "/": "/commercial_transports/*"
+          },
+          {
+            "/": "/catalog/vehicle/*/test_drive"
+          },
+          {
+            "/": "/cars/*/test_drive"
+          },
+          {
+            "/": "/catalog/catalog_params"
+          },
+          {
+            "/": "/catalog/catalog_params/carfinder"
+          },
+          {
+            "/": "/catalog/catalog_params/carfinder/*"
+          },
+          {
+            "/": "/catalog/game"
+          },
+          {
+            "/": "/valuation"
+          },
+          {
+            "/": "/service"
+          },
+          {
+            "/": "/catalog_params"
+          },
+          {
+            "/": "/catalog_params/carfinder"
+          },
+          {
+            "/": "/catalog_params/carfinder/*"
+          },
+          {
+            "/": "/carfinder"
+          },
+          {
+            "/": "/carfinder/*"
+          },
+          {
+            "/": "/chat"
+          },
+          {
+            "/": "/profile"
+          },
+          {
+            "/": "/profile/settings"
+          },
+          {
+            "/": "/profile/favorites"
+          },
+          {
+            "/": "/profile/subscriptions"
+          },
+          {
+            "/": "/profile/comparison"
+          },
+          {
+            "/": "/profile/add_auto"
+          },
+          {
+            "/": "/profile/insurance"
+          },
+          {
+            "/": "/profile/maintenance"
+          },
+          {
+            "/": "/profile/maintenance/service"
+          },
+          {
+            "/": "/new/*"
+          },
+          {
+            "/": "/used/*"
+          },
+          {
+            "/": "/services_for_sales/*"
+          },
+          {
+            "/": "/services_for_sales"
+          },
+          {
+            "/": "/services/udalennaya-komissiya"
+          },
+          {
+            "/": "/cars"
+          },
+          {
+            "/": "/commercial_transports"
+          },
+          {
+            "/": "/motorcycles"
+          },
+          {
+            "/": "/services_for_sales/srochnyi-vykup-avto"
+          },
+          {
+            "/": "/services_for_sales/trade-in-obmen-avto"
+          },
+          {
+            "/": "/services_for_sales/komissionnaya-prodazha-avto"
+          },
+          {
+            "/": "/sell"
+          },
+          {
+            "/": "/sell/*"
+          },
+          {
+            "/": "/selections"
+          },
+          {
+            "/": "/selections/*"
+          },
+          {
+            "/": "/favorites"
+          },
+          {
+            "/": "/favorites/*"
+          },
+          {
+            "/": "/form/*"
+          }
         ]
       }
     ]

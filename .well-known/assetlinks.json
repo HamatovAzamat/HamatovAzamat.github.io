@@ -1,14 +1,13 @@
 [
   {
     "relation": [
-      "delegate_permission/common.get_login_creds",
       "delegate_permission/common.handle_all_urls"
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "apps.yclients1",
+      "package_name": "ru.freshauto.app",
       "sha256_cert_fingerprints": [
-        "9C:09:69:A8:36:C1:20:A5:1F:34:0C:20:36:6A:28:52:76:5C:47:E5:0D:02:12:5B:CE:1F:FF:00:C5:A5:C5:E9"
+        "A0:29:C4:CF:57:33:FC:D4:E7:93:5A:8D:0C:7B:D0:62:D3:8C:23:8A:C0:A2:F4:77:7E:3D:03:68:C0:E4:BB:49"
       ]
     }
   }
